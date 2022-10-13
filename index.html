@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="home" class="flex-column flex-center">
+            <h1>Lets get Quizzy!</h1>
+            <button id="start-btn">Start</button>
+            <button href="/scores.html" id="scores-btn" class="btn">Scores</button>
+
+        </div>
+        <div id="game" class="justify-center flex-column">
+            <p id="text" class="score-prefix">
+            </p>
+            <h3 id="scoreCount" style="text-align:left;">Score : 0</h3>
+            <h3 id="time" style="text-align:end;">Time left</h3>
+            </p>
+            <h3 id="question"></h3>
+            <ol id="options-container">
+                <button id="btn1" class="btns">Button 1</button>
+                <button id="btn2" class="btns">Button 2</button>
+                <button id="btn3" class="btns">Button 3</button>
+                <button id="btn4" class="btns">Button 4</button>
+            </ol>
+
+        </div>
+        <div id="game-over">
+            <h3>GAME OVER</h3>
+            <p>Enter Intials Here</p>
+            <input type="text"/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
