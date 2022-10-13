@@ -16,7 +16,7 @@
 * using hide method to show next set of questions
 
 ## URL 
-* 
+* https://github.com/jhlynn95/Quizzyy -github
 * 
 
 ## MIT License
