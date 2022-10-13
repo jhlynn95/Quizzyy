@@ -17,7 +17,7 @@
 
 ## URL 
 * https://github.com/jhlynn95/Quizzyy -github
-* 
+* https://jhlynn95.github.io/Quizzyy/ -url
 
 ## MIT License
 
