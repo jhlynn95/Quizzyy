@@ -134,4 +134,4 @@ Object.values(btns).forEach(val => {
 function gameOver() {
     game.style.display = "contents"
     
-}
+} 
